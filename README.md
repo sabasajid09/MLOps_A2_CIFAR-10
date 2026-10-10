@@ -1,1 +1,1 @@
-Hotfix: corrected project documentation.
+Hotfix: A6 project documentation changed.
