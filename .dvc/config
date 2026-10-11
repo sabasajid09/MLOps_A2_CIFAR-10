@@ -1,4 +1,6 @@
 [core]
     remote = dagshub_remote
+
 ['remote "dagshub_remote"']
-    url = https://dagshub.com/sabasajid09/MLOps_A2_CIFAR-10_DagsHub_repo
+    url = s3://dvc
+    endpointurl = https://dagshub.com/sabasajid09/MLOps_A2_CIFAR-10_DagsHub_repo.s3
