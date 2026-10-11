@@ -1,0 +1,19 @@
+
+seed: 42
+
+preprocessing:
+  validation_split: 0.1
+  mean: [0.4914, 0.4822, 0.4465]
+  std: [0.2470, 0.2435, 0.2616]
+
+training:
+  batch_size: 128
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+model:
+  conv1_channels: 32
+  conv2_channels: 64
+  dense_units: 128
+  dropout: 0.3
