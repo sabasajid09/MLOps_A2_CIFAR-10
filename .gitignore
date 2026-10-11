@@ -13,3 +13,11 @@ model/
 # Local configuration (only if you don't want to track it)
 # parameters.yaml
 /models
+# Ignore DVC-generated data ignore file
+data/.gitignore
+
+# Ignore generated figures
+figures/
+
+# Ignore generated evaluation metrics
+metrics.json
